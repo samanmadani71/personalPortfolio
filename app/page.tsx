@@ -61,8 +61,8 @@ export default function Home() {
             custom designs. On the backend, I leverage Django and Django REST
             Framework to develop robust APIs that seamlessly deliver data to the
             frontend. To ensure reliability and correctness, I write
-            comprehensive tests using Django REST Framework's TestCase. This
-            combination of technologies demonstrates my ability to build
+            comprehensive tests using Django REST Framework&apos;s TestCase.
+            This combination of technologies demonstrates my ability to build
             scalable, well-tested, and visually appealing full-stack
             applications.
           </p>
