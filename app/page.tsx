@@ -16,7 +16,14 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="absolute  top-1/2 left-1/2 w-64 -translate-x-32 h-64 -translate-y-32 flex flex-col justify-center items-center">
-          <Avatar className="h-32 w-32 border-large" src={"/profile.jpg"} />
+          <div className="relative w-32 h-32 rounded-full overflow-hidden border-large">
+            <Image
+              className="object-cover"
+              src={"/profile.jpg"}
+              fill
+              alt="an image of Saman Madani"
+            />
+          </div>
           <h2 className="text-2xl font-bold text-white">Saman Madani</h2>
           <h4 className="text-lg  text-white">Full-Stack developer</h4>
           <div className="flex justify-center items-center gap-4">
@@ -86,12 +93,14 @@ export default function Home() {
           className="max-w-2xl mx-auto flex flex-col "
         >
           <div className="flex flex-col justify-center items-center">
-            <Avatar
-              src={"/profile.jpg"}
-              itemProp="image"
-              alt="Phone of Saman Madani"
-              className="w-32 h-32"
-            />
+            <div className="relative w-32 h-32 rounded-full overflow-hidden border-large">
+              <Image
+                className="object-cover"
+                src={"/profile.jpg"}
+                fill
+                alt="an image of Saman Madani"
+              />
+            </div>
             <span itemProp="name">Saman Madani</span>
           </div>
           <div className="flex flex-col justify-center items-center">
