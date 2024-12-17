@@ -4,6 +4,7 @@ import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 
 import Menu from "./ui/menu/menu";
+import Footer from "./ui/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <NextUIProvider>
           <Menu />
           {children}
+          <Footer />
         </NextUIProvider>
       </body>
     </html>

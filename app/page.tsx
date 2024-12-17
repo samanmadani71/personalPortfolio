@@ -2,6 +2,8 @@ import { Avatar } from "@nextui-org/react";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import Skills from "./ui/skills/skills";
+import Projects from "./ui/projects/Projects";
 export default function Home() {
   return (
     <main>
@@ -39,9 +41,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="container mx-auto">
+      <section id="about" className="container mx-auto my-12">
         <h2 className="text-3xl font-bold text-center my-8">About me</h2>
-        <p className="text-lg max-w-2xl mx-auto text-justify leading-loose">
+        <p className="max-w-2xl mx-auto text-justify leading-loose px-4">
           Versatile Full-Stack Developer with 5 years of professional coding
           experience in Python and JavaScript, complemented by a robust academic
           foundation in mechanical engineering from Sharif University of
@@ -50,8 +52,63 @@ export default function Home() {
           learning and data science, and passionate about leveraging innovative
           technologies to deliver impactful solutions.
         </p>
-        <div className="flex flex-col">
-          <h2 className="text-3xl font-bold text-center my-8">Skills</h2>
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-3xl font-bold text-center mt-8">Skills</h2>
+          <p className="max-w-2xl mx-auto text-justify leading-loose my-8 px-4">
+            The websites I have created so far showcase my skills using modern
+            web development technologies. For the frontend, I use React and
+            Next.js, styled with NextUI for components and Tailwind CSS for
+            custom designs. On the backend, I leverage Django and Django REST
+            Framework to develop robust APIs that seamlessly deliver data to the
+            frontend. To ensure reliability and correctness, I write
+            comprehensive tests using Django REST Framework's TestCase. This
+            combination of technologies demonstrates my ability to build
+            scalable, well-tested, and visually appealing full-stack
+            applications.
+          </p>
+          <Skills />
+        </div>
+      </section>
+      <section className="my-12 bg-blue-50 py-8">
+        <h2 className="text-3xl font-bold text-center pt-8">Projects</h2>
+        <Projects />
+      </section>
+      <section className="my-12 px-4" id="contact">
+        <h2 className="text-3xl font-bold text-center pt-8">Contact me</h2>
+        <p className="max-w-2xl mx-auto text-justify leading-loose my-8">
+          If you have any further questions, please don’t hesitate to contact
+          me. I will do my best to respond to your email within 3 working days
+          at most. You can find my contact information below:
+        </p>
+        <div
+          itemScope
+          itemType="https://schema.org/Person"
+          className="max-w-2xl mx-auto flex flex-col "
+        >
+          <div className="flex flex-col justify-center items-center">
+            <Avatar
+              src="/profile.jpg"
+              itemProp="image"
+              alt="Phone of Saman Madani"
+              className="w-32 h-32"
+            />
+            <span itemProp="name">Saman Madani</span>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <span itemProp="jobTitle">Full Stack Developer</span>
+            <div className="flex flex-col  justify-center items-center">
+              <p className="font-bold">
+                Phone:{" "}
+                <span itemProp="telephone" className="font-normal">
+                  +989124733987
+                </span>
+              </p>
+              <a href="mailto:samanmadani.dev@gmail.com" itemProp="email">
+                <span className="font-bold">Email: </span>
+                samanmadani.dev@gmail.com
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
