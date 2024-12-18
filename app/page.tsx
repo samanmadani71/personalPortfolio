@@ -1,4 +1,3 @@
-import { Avatar } from "@nextui-org/react";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
