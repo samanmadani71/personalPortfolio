@@ -10,7 +10,7 @@ const Skills = () => {
         label="Python"
         value={80}
         maxValue={100}
-        showValueLabel={true}
+        showValueLabel={false}
       />
       <Progress
         className="max-w-2xl mx-auto"
@@ -18,7 +18,7 @@ const Skills = () => {
         label="JavaScript"
         value={60}
         maxValue={100}
-        showValueLabel={true}
+        showValueLabel={false}
       />
       <Progress
         className="max-w-2xl mx-auto"
@@ -26,7 +26,7 @@ const Skills = () => {
         label="React/NextJS"
         value={70}
         maxValue={100}
-        showValueLabel={true}
+        showValueLabel={false}
       />
       <Progress
         className="max-w-2xl mx-auto"
@@ -34,7 +34,7 @@ const Skills = () => {
         label="Django REST framework"
         value={90}
         maxValue={100}
-        showValueLabel={true}
+        showValueLabel={false}
       />
     </div>
   );

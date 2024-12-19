@@ -17,7 +17,7 @@ const Projects = () => {
           <Image
             alt="Image of social network"
             className="object-cover "
-            src="https://nextui.org/images/hero-card-complete.jpeg"
+            src="/hezaresevom.png"
             fill
           />
         </CardBody>
