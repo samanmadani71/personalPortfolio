@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from "react";
@@ -11,6 +10,7 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
+  Button,
 } from "@nextui-org/react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
@@ -24,7 +24,7 @@ const menuItems = [
 const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen}>
+    <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -45,8 +45,12 @@ const Menu = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex justify-center items-center gap-2">
-          <Link href='/Saman_Madani_CV.pdf' download={true} className="lg:flex justify-center items-center gap-2" >
-            <FaCloudDownloadAlt className='text-blue-400' />
+          <Link
+            href="/Saman_Madani_CV.pdf"
+            download={true}
+            className="lg:flex justify-center items-center gap-2"
+          >
+            <FaCloudDownloadAlt className="text-blue-400" />
             My Resume
           </Link>
         </NavbarItem>
@@ -59,6 +63,7 @@ const Menu = () => {
               href={item.href}
               size="lg"
               color="foreground"
+              onPress={() => setIsMenuOpen(false)}
             >
               {item.title}
             </Link>

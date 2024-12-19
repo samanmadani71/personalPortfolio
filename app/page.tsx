@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </section>
       <section id="about" className="container mx-auto my-12">
-        <h2 className="text-3xl font-bold text-center my-8">About me</h2>
+        <h2 className="text-3xl font-bold text-center pt-16">About me</h2>
         <p className="max-w-2xl mx-auto text-justify leading-loose px-4">
           Versatile Full-Stack Developer with 5 years of professional coding
           experience in Python and JavaScript, complemented by a robust academic
@@ -75,7 +75,7 @@ export default function Home() {
           <Skills />
         </div>
       </section>
-      <section className="my-12 bg-blue-50 py-8">
+      <section className="my-12 bg-blue-50 py-8" id="projects">
         <h2 className="text-3xl font-bold text-center pt-8">Projects</h2>
         <Projects />
       </section>
