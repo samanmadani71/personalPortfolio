@@ -34,7 +34,7 @@ const Projects = () => {
           <Image
             alt="Image of social network"
             className="object-cover "
-            src="https://nextui.org/images/hero-card-complete.jpeg"
+            src="/telegram.png"
             fill
           />
         </CardBody>
@@ -49,7 +49,7 @@ const Projects = () => {
           <Image
             alt="Image of social network"
             className="object-cover "
-            src="https://nextui.org/images/hero-card-complete.jpeg"
+            src="/metro.jpg"
             fill
           />
         </CardBody>
