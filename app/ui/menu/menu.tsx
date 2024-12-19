@@ -10,7 +10,6 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
