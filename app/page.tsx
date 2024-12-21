@@ -49,7 +49,7 @@ export default function Home() {
       </section>
       <section id="about" className="container mx-auto my-12">
         <h2 className="text-3xl font-bold text-center pt-16">About me</h2>
-        <p className="max-w-2xl mx-auto text-justify leading-loose px-4">
+        <p className="max-w-2xl mx-auto text-justify leading-loose px-4 my-8">
           Versatile Full-Stack Developer with 5 years of professional coding
           experience in Python and JavaScript, complemented by a robust academic
           foundation in mechanical engineering from Sharif University of
