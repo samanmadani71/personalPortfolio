@@ -14,8 +14,8 @@ export default function Home() {
           className="object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-40"></div>
-        <div className="absolute  top-1/2 left-1/2 w-64 -translate-x-32 h-64 -translate-y-32 flex flex-col justify-center items-center">
-          <div className="relative w-32 h-32 rounded-full overflow-hidden border-large">
+        <div className="absolute  top-1/2 left-1/2 w-72 -translate-x-36 h-72 -translate-y-36 flex flex-col justify-center items-center">
+          <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-large">
             <Image
               className="object-cover"
               src={"/profile.jpg"}

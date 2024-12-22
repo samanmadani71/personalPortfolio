@@ -5,7 +5,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="grid grid-cols-3 min-h-96 container mx-auto gap-4 py-8">
-      <Card className="pt-4 h-96 col-span-3 md:col-span-1">
+      <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <p className="text-tiny uppercase font-bold">
             Hezare Sevom Social Network
@@ -22,7 +22,7 @@ const Projects = () => {
           />
         </CardBody>
       </Card>
-      <Card className="pt-4 h-96 col-span-3 md:col-span-1">
+      <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <p className="text-tiny uppercase font-bold">
             Abniro Keyword Finder Scraper
@@ -39,7 +39,7 @@ const Projects = () => {
           />
         </CardBody>
       </Card>
-      <Card className="pt-4 h-96 col-span-3 md:col-span-1">
+      <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <p className="text-tiny uppercase font-bold">Subway Path Finder</p>
           <small className="text-default-500">2022-2023</small>
