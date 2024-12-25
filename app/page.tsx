@@ -18,7 +18,7 @@ export default function Home() {
           <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-large">
             <Image
               className="object-cover"
-              src={"/profile.jpg"}
+              src={"/profileop.jpg"}
               fill
               alt="an image of Saman Madani"
             />
