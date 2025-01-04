@@ -43,11 +43,11 @@ const Menu = () => {
         ))}
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex justify-center items-center gap-2">
+        <NavbarItem className="flex justify-center items-center gap-2">
           <Link
-            href="/Saman_Madani_CV.pdf"
+            href="/Saman_Madani_CV_app_flow.pdf"
             download={true}
-            className="lg:flex justify-center items-center gap-2"
+            className="flex justify-center items-center gap-2"
           >
             <FaCloudDownloadAlt className="text-blue-400" />
             My Resume
