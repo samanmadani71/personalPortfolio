@@ -17,7 +17,7 @@ const Projects = () => {
           <Image
             alt="Image of RAG system workflow"
             className="object-fit "
-            src="/rag.png"
+            src="/Rag.png"
             fill
           />
         </CardBody>
