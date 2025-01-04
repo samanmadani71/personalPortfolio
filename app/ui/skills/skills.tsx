@@ -36,6 +36,14 @@ const Skills = () => {
         maxValue={100}
         showValueLabel={false}
       />
+      <Progress
+        className="max-w-2xl mx-auto"
+        color="success"
+        label="Docker"
+        value={50}
+        maxValue={100}
+        showValueLabel={false}
+      />
     </div>
   );
 };
