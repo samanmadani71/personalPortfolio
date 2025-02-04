@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import Skills from "./ui/skills/skills";
 import Projects from "./ui/projects/Projects";
+import Certificates from "./ui/certificates/Certificates";
 export default function Home() {
   return (
     <main>
@@ -78,6 +79,10 @@ export default function Home() {
       <section className="my-12 bg-blue-50 py-8" id="projects">
         <h2 className="text-3xl font-bold text-center pt-8">Projects</h2>
         <Projects />
+      </section>
+      <section className="my-12 bg-blue-50 py-8" id="projects">
+        <h2 className="text-3xl font-bold text-center pt-8">Certificates</h2>
+        <Certificates />
       </section>
       <section className="my-12 px-4" id="contact">
         <h2 className="text-3xl font-bold text-center pt-8">Contact me</h2>
