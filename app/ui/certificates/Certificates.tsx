@@ -7,6 +7,31 @@ const Certificates = () => {
   return (
     <div className="grid grid-cols-3 min-h-96 container mx-auto gap-4 py-8">
       <Link
+        href="https://coursera.org/share/8a582697626fce69f5681513db4a9915"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
+          <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+            <p className="text-tiny uppercase font-bold">
+              Wharton - University of Pennsylvania
+            </p>
+            <small className="text-default-500">2025</small>
+            <h4 className="font-bold text-lg">
+              AI Application in marketing and finance
+            </h4>
+          </CardHeader>
+          <CardBody className="h-full mt-4">
+            <Image
+              alt="Image of cerification"
+              className="object-fit "
+              src="/AI_application_in_marketing_and_finance.png"
+              fill
+            />
+          </CardBody>
+        </Card>
+      </Link>
+      <Link
         href="https://coursera.org/share/42d2900a32864d58bbe72e9b895417d2"
         target="_blank"
         rel="noopener noreferrer"
@@ -19,7 +44,7 @@ const Certificates = () => {
           </CardHeader>
           <CardBody className="h-full mt-4">
             <Image
-              alt="Image of RAG system workflow"
+              alt="Image of cerification"
               className="object-fit "
               src="/IBM_Machine_Learning_with_Python.png"
               fill
@@ -44,7 +69,7 @@ const Certificates = () => {
           </CardHeader>
           <CardBody className="h-full mt-4">
             <Image
-              alt="Image of RAG system workflow"
+              alt="Image of cerification"
               className="object-fit "
               src="/fundamental_of_AI_for_non_data_scientists.png"
               fill
