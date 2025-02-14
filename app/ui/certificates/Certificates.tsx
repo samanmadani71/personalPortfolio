@@ -7,7 +7,7 @@ const Certificates = () => {
   return (
     <div className="grid grid-cols-3 min-h-96 container mx-auto gap-4 py-8">
       <Link
-        href="https://coursera.org/share/8a582697626fce69f5681513db4a9915"
+        href="https://coursera.org/share/a39d4a477db11ac4eb70d3a751eb257f"
         target="_blank"
         rel="noopener noreferrer"
         className="col-span-3 md:col-span-1"
