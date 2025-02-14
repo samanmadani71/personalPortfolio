@@ -10,8 +10,9 @@ const Certificates = () => {
         href="https://coursera.org/share/8a582697626fce69f5681513db4a9915"
         target="_blank"
         rel="noopener noreferrer"
+        className="col-span-3 md:col-span-1"
       >
-        <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
+        <Card className="pt-4 h-96 rounded-none md:rounded-lg">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
             <p className="text-tiny uppercase font-bold">
               Wharton - University of Pennsylvania
@@ -35,6 +36,7 @@ const Certificates = () => {
         href="https://coursera.org/share/42d2900a32864d58bbe72e9b895417d2"
         target="_blank"
         rel="noopener noreferrer"
+        className="col-span-3 md:col-span-1"
       >
         <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -56,6 +58,7 @@ const Certificates = () => {
         href="https://coursera.org/share/2e456fe1967d744aecf1b6904afd5fa9"
         target="_blank"
         rel="noopener noreferrer"
+        className="col-span-3 md:col-span-1"
       >
         <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -81,6 +84,7 @@ const Certificates = () => {
         href="https://coursera.org/share/bab4dc91e380835f412ce45ce329aeae"
         target="_blank"
         rel="noopener noreferrer"
+        className="col-span-3 md:col-span-1"
       >
         <Card className="pt-4 h-96 col-span-3 md:col-span-1 rounded-none md:rounded-lg">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
