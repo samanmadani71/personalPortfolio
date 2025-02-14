@@ -19,6 +19,32 @@ const Certificates = () => {
             </p>
             <small className="text-default-500">2025</small>
             <h4 className="font-bold text-lg">
+              AI for business specialization
+            </h4>
+          </CardHeader>
+          <CardBody className="h-full mt-4">
+            <Image
+              alt="Image of cerification"
+              className="object-fit "
+              src="/AI_for_business.png"
+              fill
+            />
+          </CardBody>
+        </Card>
+      </Link>
+      <Link
+        href="https://coursera.org/share/8a582697626fce69f5681513db4a9915"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="col-span-3 md:col-span-1"
+      >
+        <Card className="pt-4 h-96 rounded-none md:rounded-lg">
+          <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+            <p className="text-tiny uppercase font-bold">
+              Wharton - University of Pennsylvania
+            </p>
+            <small className="text-default-500">2025</small>
+            <h4 className="font-bold text-lg">
               AI Application in marketing and finance
             </h4>
           </CardHeader>
