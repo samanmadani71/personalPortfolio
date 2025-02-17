@@ -7,6 +7,30 @@ const Certificates = () => {
   return (
     <div className="grid grid-cols-3 min-h-96 container mx-auto gap-4 py-8">
       <Link
+        href="https://coursera.org/share/229dde1357365e467d45b09d2cab982a"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="col-span-3 md:col-span-1"
+      >
+        <Card className="pt-4 h-96 rounded-none md:rounded-lg">
+          <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+            <p className="text-tiny uppercase font-bold">Google</p>
+            <small className="text-default-500">2025</small>
+            <h4 className="font-bold text-lg">
+              Introduction to Git and Github
+            </h4>
+          </CardHeader>
+          <CardBody className="h-full mt-4">
+            <Image
+              alt="Image of cerification"
+              className="object-fit "
+              src="/google_git.png"
+              fill
+            />
+          </CardBody>
+        </Card>
+      </Link>
+      <Link
         href="https://coursera.org/share/a39d4a477db11ac4eb70d3a751eb257f"
         target="_blank"
         rel="noopener noreferrer"
