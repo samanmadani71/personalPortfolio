@@ -1,49 +1,26 @@
 import React from "react";
-import { Progress } from "@nextui-org/react";
+import { Progress } from "@/components/ui/progress";
 
 const Skills = () => {
+  const skills = [
+    { name: "Python", value: 80 },
+    { name: "JavaScript", value: 60 },
+    { name: "React/NextJS", value: 70 },
+    { name: "Django REST framework", value: 90 },
+    { name: "Docker", value: 50 },
+  ];
+
   return (
-    <div className="mx-auto max-w-3xl w-full flex flex-col gap-4 px-4">
-      <Progress
-        className="max-w-2xl mx-auto"
-        color="success"
-        label="Python"
-        value={80}
-        maxValue={100}
-        showValueLabel={false}
-      />
-      <Progress
-        className="max-w-2xl mx-auto"
-        color="success"
-        label="JavaScript"
-        value={60}
-        maxValue={100}
-        showValueLabel={false}
-      />
-      <Progress
-        className="max-w-2xl mx-auto"
-        color="success"
-        label="React/NextJS"
-        value={70}
-        maxValue={100}
-        showValueLabel={false}
-      />
-      <Progress
-        className="max-w-2xl mx-auto"
-        color="success"
-        label="Django REST framework"
-        value={90}
-        maxValue={100}
-        showValueLabel={false}
-      />
-      <Progress
-        className="max-w-2xl mx-auto"
-        color="success"
-        label="Docker"
-        value={50}
-        maxValue={100}
-        showValueLabel={false}
-      />
+    <div className="mx-auto max-w-3xl w-full flex flex-col gap-6 px-4">
+      {skills.map((skill) => (
+        <div key={skill.name} className="space-y-2">
+          <div className="flex justify-between text-sm font-medium">
+            <span>{skill.name}</span>
+            <span className="text-muted-foreground">{skill.value}%</span>
+          </div>
+          <Progress value={skill.value} className="h-2" />
+        </div>
+      ))}
     </div>
   );
 };

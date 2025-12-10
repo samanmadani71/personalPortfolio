@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "articles": "Articles",
+    "contact": "Contact",
+    "resume": "My Resume"
+  },
+  "hero": {
+    "name": "Saman Madani",
+    "title": "Full-Stack developer"
+  },
+  "about": {
+    "title": "About me",
+    "description": "Versatile Full-Stack Developer with 5 years of professional coding experience in Python and JavaScript, complemented by a robust academic foundation in mechanical engineering from Sharif University of Technology and the University of Tehran, the top universities in Iran. Skilled in developing scalable web applications, proficient in machine learning and data science, and passionate about leveraging innovative technologies to deliver impactful solutions."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "The websites I have created so far showcase my skills using modern web development technologies. For the frontend, I use React and Next.js, styled with shadcn/ui for components and Tailwind CSS for custom designs. On the backend, I leverage Django and Django REST Framework to develop robust APIs that seamlessly deliver data to the frontend. To ensure reliability and correctness, I write comprehensive tests using Django REST Framework's TestCase. This combination of technologies demonstrates my ability to build scalable, well-tested, and visually appealing full-stack applications."
+  },
+  "projects": {
+    "title": "Projects",
+    "rag": {
+      "category": "Retrieval-Augmented Generation",
+      "year": "2024-2025",
+      "role": "Backend Developer"
+    },
+    "hezaresevom": {
+      "category": "Hezare Sevom Social Network",
+      "year": "2023-Present",
+      "role": "Full-Stack developer"
+    },
+    "abniro": {
+      "category": "Abniro Keyword Finder Scraper",
+      "year": "2022-2023",
+      "role": "Automation Developer"
+    },
+    "subway": {
+      "category": "Subway Path Finder",
+      "year": "2022-2023",
+      "role": "React Native Developer"
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "google": {
+      "issuer": "Google",
+      "year": "2025",
+      "title": "Introduction to Git and Github"
+    },
+    "wharton1": {
+      "issuer": "Wharton - University of Pennsylvania",
+      "year": "2025",
+      "title": "AI for business specialization"
+    },
+    "wharton2": {
+      "issuer": "Wharton - University of Pennsylvania",
+      "year": "2025",
+      "title": "AI Application in marketing and finance"
+    },
+    "ibm": {
+      "issuer": "IBM",
+      "year": "2025",
+      "title": "Machine Learning with Python"
+    },
+    "wharton3": {
+      "issuer": "Wharton - University of Pennsylvania",
+      "year": "2025",
+      "title": "AI Fundamentals for Non-Data Scientists"
+    },
+    "wharton4": {
+      "issuer": "Wharton - University of Pennsylvania",
+      "year": "2025",
+      "title": "AI Applications in People Management"
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "readMore": "Read more",
+    "backToArticles": "Back to Articles",
+    "publishedOn": "Published on",
+    "noArticles": "No articles yet. Check back soon!"
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "If you have any further questions, please don't hesitate to contact me. I will do my best to respond to your email within 3 working days at most. You can find my contact information below:",
+    "phone": "Phone",
+    "email": "Email",
+    "jobTitle": "Full Stack Developer"
+  },
+  "seo": {
+    "title": "Saman Madani - Full-Stack Developer | Portfolio",
+    "description": "Experienced Full-Stack Developer specializing in React, Next.js, Django, and Python. 5 years of professional experience building scalable web applications.",
+    "keywords": "Full-Stack Developer, React Developer, Next.js, Django, Python, JavaScript, Web Development, Portfolio"
+  }
+}
