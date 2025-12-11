@@ -12,8 +12,6 @@ html {
   }
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -70,8 +68,6 @@ html {
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
@@ -79,4 +75,27 @@ html {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* RTL Support for Persian language */
+[dir="rtl"] .prose-rtl {
+  direction: rtl;
+}
+
+[dir="rtl"] .prose-rtl ul,
+[dir="rtl"] .prose-rtl ol {
+  padding-right: 1.625em;
+  padding-left: 0;
+}
+
+[dir="rtl"] .prose-rtl li {
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+[dir="rtl"] .prose-rtl blockquote {
+  border-left: none;
+  border-right: 4px solid hsl(var(--primary));
+  padding-left: 0;
+  padding-right: 1rem;
 }

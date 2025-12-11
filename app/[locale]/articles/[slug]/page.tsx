@@ -4,6 +4,7 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+import MarkdownRenderer from "@/components/MarkdownRenderer";
 
 export async function generateStaticParams() {
   const locales = ["en", "fa"];
@@ -86,7 +87,7 @@ export default async function ArticlePage({
           </Button>
         </Link>
 
-        <article className="prose prose-lg dark:prose-invert max-w-none">
+        <article>
           <header className="mb-8">
             <h1 className="text-4xl font-bold mb-4">{article.title}</h1>
             <time className="text-muted-foreground">
@@ -94,10 +95,9 @@ export default async function ArticlePage({
             </time>
           </header>
 
-          <div
-            className="mt-8"
-            dangerouslySetInnerHTML={{ __html: article.content }}
-          />
+          <div className="mt-8">
+            <MarkdownRenderer content={article.content} locale={locale} />
+          </div>
         </article>
       </main>
     </>

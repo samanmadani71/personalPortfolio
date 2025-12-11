@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Inter } from "next/font/google";
+import iransans from "@/fonts/fonts";
 import "../globals.css";
 import Menu from "../ui/menu/menu";
 import Footer from "../ui/footer/Footer";
@@ -85,10 +86,11 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const fontClass = locale === "fa" ? iransans.className : inter.className;
 
   return (
     <html lang={locale} dir={locale === "fa" ? "rtl" : "ltr"}>
-      <body className={inter.className}>
+      <body className={fontClass}>
         <NextIntlClientProvider messages={messages}>
           <Menu />
           {children}
