@@ -81,11 +81,12 @@ const Menu = () => {
         <div className="flex items-center gap-2">
           <Button
             variant="ghost"
-            size="icon"
             onClick={switchLocale}
-            aria-label="Switch language"
+            aria-label={`Switch language to ${locale === "fa" ? "en" : "fa"}`}
           >
-            <Languages className="h-5 w-5" />
+            <span className="uppercase text-sm font-medium">
+              {locale === "fa" ? "en" : "fa"}
+            </span>
           </Button>
           <Link
             href="/Saman_Madani_CV_app_flow.pdf"

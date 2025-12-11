@@ -21,13 +21,14 @@
   },
   "projects": {
     "title": "Projects",
+    "viewDetails": "View Details",
     "rag": {
       "category": "Retrieval-Augmented Generation",
       "year": "2024-2025",
       "role": "Backend Developer"
     },
     "hezaresevom": {
-      "category": "Hezare Sevom Social Network",
+      "category": "Hezare Sevom Assistance for Controllers",
       "year": "2023-Present",
       "role": "Full-Stack developer"
     },
@@ -41,6 +42,12 @@
       "year": "2022-2023",
       "role": "React Native Developer"
     }
+  },
+  "projectDetail": {
+    "backToProjects": "Back to Projects",
+    "technologiesUsed": "Technologies Used",
+    "visitWebsite": "Visit Website",
+    "viewOnGithub": "View on GitHub"
   },
   "certificates": {
     "title": "Certificates",
@@ -93,5 +100,13 @@
     "title": "Saman Madani - Full-Stack Developer | Portfolio",
     "description": "Experienced Full-Stack Developer specializing in React, Next.js, Django, and Python. 5 years of professional experience building scalable web applications.",
     "keywords": "Full-Stack Developer, React Developer, Next.js, Django, Python, JavaScript, Web Development, Portfolio"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "madeWith": "Built with",
+    "and": "and",
+    "by": "by",
+    "year": "2024",
+    "name": "Saman Madani"
   }
 }
