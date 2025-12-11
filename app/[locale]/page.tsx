@@ -54,7 +54,7 @@ export default async function Home() {
             <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-white">
               <Image
                 className="object-cover"
-                src={"/profileop.jpg"}
+                src={"/profile.jpg"}
                 fill
                 alt={`an image of ${t("hero.name")}`}
                 sizes="(max-width: 768px) 160px, 208px"
